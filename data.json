@@ -1,0 +1,15 @@
+{
+    "contents": [
+        {
+            "added_by": "Nikhil Manchanda",
+            "about": "In the last few years, we saw a great shift in technology, where projects are moving towards “microservice architecture” vs the old monolithic architecture. This approach has done wonders for us.As we say, “smaller things are much easier to handle”, so here we have microservices that can be handled conveniently. We need to interact among different microservices. I handled it using the HTTP API call, which seems great and it worked for me.But is this the perfect way to do things?The answer is a resounding, no, because we compromised both speed and efficiency here.Then came in the picture, the gRPC framework, that has been a game-changer.",
+            "link": "https://www.velotio.com/engineering-blog/grpc-implementation-using-python",
+            "sub_answers": [
+                {
+                    "question": "What is gRPC?",
+                    "answer": "“gRPC or Google Remote Procedure Call is a modern open-source high-performance RPC framework that can run in any environment. It can efficiently connect services in and across data centers with pluggable support for load balancing, tracing, health checking and authentication.”"
+                }
+            ]
+        }
+    ]
+}

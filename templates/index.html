@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Implementing gRPC In Python: A Step-by-step Guide</title>
+    <style>
+        div {
+          margin: 20px;
+          
+        }
+        </style>
+</head>
+<body>
+    <center><h1>Implementing gRPC In Python: A Step-by-step Guide</h1></center>
+    {% for content in data['contents'] %}
+        <div>
+            <h3>Added_by: {{ content['added_by'] }}</h3>
+            <p>{{ content['about'] }}</p>
+            {%for answers in content%}
+                <div>
+                    <h3>{{ answers['question'] }}</h3>
+                    <p>{{ answers['answer'] }}</p>
+                </div>
+            {% endfor %}
+        </div>
+    {% endfor %}
+</body>
+</html>
